@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+#navbar{
+	width:100vw;
+	height:100px;
+	display:flex;
+	justify-content:space-evenly
+}
+.section{
+	font-size:18px;
+	width:24%;
+	background-color:#6e072d;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:5px;
+	border:2px solid white;
+}
+.section:hover{
+	background-color:#b90e4d;
+}
+.mix{
+	width:100%;
+	list-style-type: none;
+	display:flex;
+	justify-content:space-between;
+}
